@@ -23,9 +23,9 @@ export default function Navbar() {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className="fixed inset-x-0 top-0 z-50"
     >
-      <nav className="lg:absolute bg-ink/70 mx-auto flex w-full items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <nav className="lg:absolute  bg-ink/70 mx-auto flex w-full items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <a href="#home" className="flex items-center gap-2 text-ink">
+        <a href="#home" className="flex items-center gap-2 text-paper">
           <Gem className="h-6 w-6 text-gold" />
           <span className="text-xl font-semibold tracking-tight">stellar</span>
         </a>
@@ -36,7 +36,7 @@ export default function Navbar() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="text-sm font-medium text-ink transition-colors hover:text-gold-dark"
+                className="text-sm font-medium text-paper transition-colors hover:text-gold-dark"
               >
                 {link.label}
               </a>
@@ -47,10 +47,10 @@ export default function Navbar() {
         {/* Right actions */}
         <div className="flex items-center gap-3">
           <div className="hidden items-center gap-2 xl:flex">
-            <Phone className="h-5 w-5 text-ink" />
+            <Phone className="h-5 w-5 text-paper" />
             <div className="leading-tight">
-              <p className="text-[10px] text-muted">Call Us Phone</p>
-              <p className="text-xs font-semibold text-ink">(+480) 123 678 900</p>
+              <p className="text-[10px] text-muted text-paper">Call Us Phone</p>
+              <p className="text-xs font-semibold text-paper">(+480) 123 678 900</p>
             </div>
           </div>
 
