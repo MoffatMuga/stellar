@@ -61,18 +61,7 @@ export default function Navbar() {
             Get A Quote
           </a>
 
-          <button
-            aria-label="Search"
-            className="hidden h-10 w-10 items-center justify-center rounded-full bg-nav-glass text-ink backdrop-blur-md transition hover:bg-paper sm:flex"
-          >
-            <Search className="h-4 w-4" />
-          </button>
-          <button
-            aria-label="Menu"
-            className="hidden h-10 w-10 items-center justify-center rounded-full bg-nav-glass text-ink backdrop-blur-md transition hover:bg-paper sm:flex"
-          >
-            <LayoutGrid className="h-4 w-4" />
-          </button>
+  
 
           {/* Mobile toggle */}
           <button
