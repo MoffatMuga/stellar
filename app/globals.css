@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+
+  --color-gold: #d9a84e;
+  --color-gold-dark: #c4923a;
+  --color-ink: #1c1c1c;
+  --color-paper: #ffffff;
+  --color-muted: #4a4a4a;
+  --color-glass: rgba(255, 255, 255, 0.35);
+  --color-glass-border: rgba(255, 255, 255, 0.5);
+  --color-overlay: rgba(235, 232, 228, 0.25);
+  --color-nav-glass: rgba(255, 255, 255, 0.45);
+  --color-surface: #f5f5f5;
+  --color-card: #ffffff;
+  --color-line: #e6e6e6;
+  --color-dark: #2b2b2b;
+  --color-dark-line: rgba(255, 255, 255, 0.35);
+  --color-band: #eeeeee;
+  --color-watermark: rgba(0, 0, 0, 0.05);
+  --color-tag: rgba(255, 255, 255, 0.28);
+  --color-scrim: rgba(0, 0, 0, 0.35);
+  --color-play: rgba(255, 255, 255, 0.25);
+  --color-play-border: rgba(255, 255, 255, 0.6);
+  --color-footer-scrim: rgba(24, 24, 24, 0.88);
+  --color-watermark-light: rgba(255, 255, 255, 0.22);
+  --color-tag-border: rgba(255, 255, 255, 0.55);
+  --color-view: rgba(40, 40, 40, 0.85);--color-card-glass: rgba(60, 60, 60, 0.55);
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: var(--color-paper);
+  overflow-x: clip;
+}
+
+section[id] {
+  scroll-margin-top: 80px;
+}
+.fade-bottom {
+  -webkit-mask-image: linear-gradient(to bottom, black 35%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 35%, transparent 100%);
+}
