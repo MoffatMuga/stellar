@@ -50,7 +50,7 @@ export default function Navbar() {
             <Phone className="h-5 w-5 text-paper" />
             <div className="leading-tight">
               <p className="text-[10px] text-muted text-paper">Call Us Phone</p>
-              <p className="text-xs font-semibold text-paper">(+480) 123 678 900</p>
+              <p className="text-xs font-semibold text-paper">(+254) 123 678 900</p>
             </div>
           </div>
 
